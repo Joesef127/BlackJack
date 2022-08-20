@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- pop up message -->
+  <div class="modalBox" id="modalBox">
+    <div class="modalContent" id="modalContent">
+      <span id="close" onclick="closeModal()">&times;</span><br>
+      <p class="modalText">Restart the game?</p>
+      <a href="index.html"><button>YES</button></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="header">BlackJack</h1>
+    <h2 id="message-el">Want to play a round?</h2>
+    <p id="cards-el">Cards: </p>
+    <p id="sum-el">Sum: </p>
+    <div class="buttons">
+      <p>
+        <button id="startGame" onclick="startGame()">START GAME</button>
+        <button id="newCard" onclick="newCard()">NEW CARD</button>
+        <button id="reset" onclick="displayModal()">RESET</button>
+      </p>
+    </div>
+    <p id="player-el"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
