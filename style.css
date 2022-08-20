@@ -90,13 +90,13 @@ p {
 
 button {
   color: #016f32;
-  width: 13rem;
+  width: 10rem;
   background: goldenrod;
   padding: 0.4rem 1.5rem;
   /* margin: 1rem 0; */
   border: 4px solid transparent;
   border-radius: 4px;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
