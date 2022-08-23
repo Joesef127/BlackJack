@@ -10,7 +10,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [License](#License)
@@ -24,13 +23,6 @@ What this is:
 <a href="https://blackjack.netlify.app"><strong>➥ Live Demo</strong></a>
 
 <br />
-
-## Screenshot
-
-![](./Screenshot/bj-active.png)
-![](./Screenshot/bj-mobile.png)
-![](./Screenshot/bj-desktop-active.png)
-![](./Screenshot/bj-desktop.png)
 
 ## My process
 
