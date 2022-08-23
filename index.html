@@ -13,7 +13,7 @@
     <div class="modalContent" id="modalContent">
       <span id="close" onclick="closeModal()">&times;</span><br>
       <p class="modalText">Restart the game?</p>
-      <a href="index.html"><button>YES</button></a>
+      <a href="index.html" id="yes"><button>YES</button></a>
     </div>
   </div>
 
@@ -26,10 +26,43 @@
       <p>
         <button id="startGame" onclick="startGame()">START GAME</button>
         <button id="newCard" onclick="newCard()">NEW CARD</button>
-        <button id="reset" onclick="displayModal()">RESET</button>
+        <button id="reset" onclick="displayModal()">RESTART</button>
       </p>
     </div>
     <p id="player-el"></p>
+    <a href="#help" id="help" onclick="displayHelp()">Help</a>
+    <div id="helpBox" class="helpBox">
+      <div id="helpContent" class="helpContent">
+        <span id="close" onclick="closeModal()">&times;</span><br>
+        <h1>How to play?</h1>
+        <ul id="gameRules" class="gameRules">
+          <li class="rule">
+            BlackJack is absolutely a game of luck.
+          </li>
+          <li class="rule">
+            Click the <em>"Start Game"</em> button to start playing.
+            <li class="subRule">
+              Two random cards are picked from the table.
+            </li>
+          </li>
+          <li class="rule">
+            If the sum of the cards picked is equal to <em>"21"</em>, you have a BlackJack and you will receive a $20 bonus.
+            <li class="subRule"><strong>NOTE: </strong>You can't pick a new card after getting a BlackJack, hence you have to click the <em>"Start Game"</em> button to continue.</li>
+          </li>
+          <li class="rule">
+            If the sum of the picked cards is less than <em>"21"</em>, you keep picking new random cards till it adds up to <em>"21"</em>.
+            <li class="subRule"><strong>NOTE: </strong>Picking new card costs $5</li>
+          </li>
+          <li class="rule">
+            If the sum of the picked cards ends being higher than <em>"21"</em> right from the start or after picking new card, you've lost and have to try again if you still have up to $5 in your balance.
+          </li>
+          <li class="rule">
+            Once your money is exhausted, you're out of the game and you will not be able to pick a new card again, you have to restart the game. 
+            <li class="subRule"><strong>NOTE: </strong> You can however try your luck by repeatedly clicking the <em>"Start Game"</em> button until it brings a BlackJack combo for you to receive $20 and continue.</li>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
