@@ -20,7 +20,7 @@ What this is:
 
   <h2 align="center">BlackJack Game</h2>
 
-<a href="https://blackjack.netlify.app"><strong>➥ Live Demo</strong></a>
+<a href="https://bblackjack.netlify.app"><strong>➥ Live Demo</strong></a>
 
 <br />
 
